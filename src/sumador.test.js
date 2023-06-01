@@ -13,7 +13,7 @@ describe("cambiar", () => {
     expect(cambiar(6)).toEqual("1,1,1,1,1,1");
   });
 
-  it('Fracciona correctamente el monto de dinero', () => {
+  it('Fracciona correctamente el monto de dinero ingresado', () => {
     expect(fraccionarMonto(19)).toEqual([5, 5, 5, 2, 2]);
     expect(fraccionarMonto(10)).toEqual([5, 5]);
     expect(fraccionarMonto(3)).toEqual([2, 1]);
