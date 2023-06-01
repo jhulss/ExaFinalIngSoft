@@ -5,4 +5,8 @@ describe("cambiar", () => {
     expect(cambiar(1)).toEqual(1);
   });
 
+  it("no cambia monedas por otras monedas", () => {
+    expect(cambiar(5)).toEqual(5);
+  });
+  
 });
